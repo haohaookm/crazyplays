@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Collection Hub: Play the Best Online Games | CrazyPlays.xyz</title>
+    <meta name="description" content="Play the best online games for free. Our collection features top games including Survivors games, puzzle games, and more. Test your skills now!">
+    <link rel="canonical" href="https://crazyplays.xyz/">
+    <meta name="keywords" content="survivors games, survival games, monster survivors, online games, free games">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .game-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+        .game-card .h-48 {
+            position: relative;
+            overflow: hidden;
+        }
+        .game-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            transition: transform 0.5s ease;
+        }
+        .game-card:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-800 sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-yellow-400">CrazyPlays<span class="text-white">.xyz</span></a>
+                <nav>
+                    <ul class="flex space-x-6">
+                        <li><a href="index.html" class="text-white hover:text-yellow-400 transition">Home</a></li>
+                        <li><a href="#games" class="text-white hover:text-yellow-400 transition">Games</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 bg-slate-900 relative">
+        <div class="absolute inset-0 bg-black opacity-90 z-0"></div>
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop" alt="Background" class="w-full h-full object-cover">
+        </div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center text-white leading-tight">
+                Game Collection Hub: <span class="text-yellow-400">Play Online Games</span> For Free
+            </h1>
+            <p class="text-xl text-slate-300 max-w-3xl mx-auto mb-10">
+                Enjoy our handpicked collection of the best online games. From survival adventures to challenging puzzles, we have something for everyone!
+            </p>
+            <a href="#games" class="inline-block bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
+                Play Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="py-16 bg-slate-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Featured Survivors Games</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Game 1 -->
+                <div class="game-card bg-slate-700 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-slate-800 overflow-hidden relative">
+                        <img src="images/games/monster-survivors.webp" alt="Monster Survivors" class="w-full h-full object-cover object-center">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-40"></div>
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-2xl font-bold mb-3 text-yellow-400">Monster Survivors</h2>
+                        <p class="text-slate-300 mb-4">
+                            Battle against endless waves of monsters in this thrilling survival game. Upgrade your character, unlock new abilities, and see how long you can last against the horde!
+                        </p>
+                        <a href="monster-survivors.html" class="inline-block w-full bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold py-2 px-4 rounded text-center transition">
+                            Play Now
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Game 2 -->
+                <div class="game-card bg-slate-700 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-slate-800 overflow-hidden relative">
+                        <img src="images/games/pixel-survivors.png" alt="Pixel Survivors" class="w-full h-full object-cover object-center">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-40"></div>
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-2xl font-bold mb-3 text-yellow-400">Pixel Survivors</h2>
+                        <p class="text-slate-300 mb-4">
+                            Experience nostalgic pixel graphics in this challenging survival adventure. Collect power-ups, defeat enemies, and become the ultimate survivor in this game!
+                        </p>
+                        <a href="pixel-survivors.html" class="inline-block w-full bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold py-2 px-4 rounded text-center transition">
+                            Play Now
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Game 3 -->
+                <div class="game-card bg-slate-700 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-slate-800 overflow-hidden relative">
+                        <img src="images/games/clumsy-bird.png" alt="Clumsy Bird" class="w-full h-full object-cover object-center">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-40"></div>
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-2xl font-bold mb-3 text-yellow-400">Clumsy Bird</h2>
+                        <p class="text-slate-300 mb-4">
+                            Test your reflexes in this addictive flying game! Navigate through obstacles, collect points, and see how far you can fly in this Flappy Bird inspired adventure.
+                        </p>
+                        <a href="clumsy-bird.html" class="inline-block w-full bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold py-2 px-4 rounded text-center transition">
+                            Play Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Play Section -->
+    <section class="py-16 bg-slate-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Why Play Survivors Games?</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-slate-800 p-6 rounded-xl">
+                    <div class="text-yellow-400 text-4xl mb-4">🎮</div>
+                    <h3 class="text-xl font-bold mb-3">Addictive Gameplay</h3>
+                    <p class="text-slate-300">Simple to learn, difficult to master. The perfect balance of challenge and reward keeps you coming back for more.</p>
+                </div>
+                
+                <div class="bg-slate-800 p-6 rounded-xl">
+                    <div class="text-yellow-400 text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-bold mb-3">Quick Sessions</h3>
+                    <p class="text-slate-300">Perfect for short gaming breaks. Jump in for a quick round or lose yourself for hours trying to beat your high score.</p>
+                </div>
+                
+                <div class="bg-slate-800 p-6 rounded-xl">
+                    <div class="text-yellow-400 text-4xl mb-4">🚀</div>
+                    <h3 class="text-xl font-bold mb-3">Constant Progression</h3>
+                    <p class="text-slate-300">Level up, unlock new abilities, and watch your character grow stronger with each game session.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section class="py-16 bg-slate-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Survivors Games - Pro Tips</h2>
+            
+            <div class="bg-slate-700 p-8 rounded-xl max-w-3xl mx-auto">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="text-yellow-400 mr-3">✓</span>
+                        <p>Focus on movement speed early in the game to avoid getting surrounded</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-400 mr-3">✓</span>
+                        <p>Balance offensive and defensive upgrades for the best survival chances</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-400 mr-3">✓</span>
+                        <p>Don't stay in one place too long - keep moving to avoid enemy swarms</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-400 mr-3">✓</span>
+                        <p>Collect experience gems quickly before they disappear</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-400 mr-3">✓</span>
+                        <p>Plan your upgrade path based on the enemy types you're facing</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 py-12 border-t border-slate-800">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <a href="index.html" class="text-2xl font-bold text-yellow-400">CrazyPlays<span class="text-white">.xyz</span></a>
+                    <p class="text-slate-400 mt-2">The best place to play Survivors games online for free</p>
+                </div>
+                
+                <div>
+                    <ul class="flex flex-wrap justify-center space-x-6">
+                        <li><a href="index.html" class="text-slate-400 hover:text-yellow-400 transition">Home</a></li>
+                        <li><a href="#games" class="text-slate-400 hover:text-yellow-400 transition">Games</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-yellow-400 transition">Privacy Policy</a></li>
+                    </ul>
+                    <p class="text-slate-500 mt-4 text-center">© 2023 CrazyPlays.xyz. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
